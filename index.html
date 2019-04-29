@@ -1,190 +1,276 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- TODO(you): Make whatever changes needed to complete the homework! -->
+<!-- TODO(you): Make whatever changes needed to complete the homework! -->
 
-  <head>
-    <meta charset="utf-8">
-    <title>Adopt A Dog And We'll Reveal A Deep Truth About You</title>
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="provided-style.css"/>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="constants.js" defer="true"></script>
-    <script src="script.js" defer="true"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <title>Adopt A Dog And We'll Reveal A Deep Truth About You</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="provided-style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="constants.js" defer="true"></script>
+  <script src="script.js" defer="true"></script>
+</head>
 
-  <body>
-    <article>
-      <header>
-          <h1>4102165</h1>
-          <div>
-            <span>YAY</span>
-            <span>INT</span>
-            <span>ER</span>
-            <span>NET</span>
+<body>
+  <article>
+    <header>
+      <h1>CS193x</h1>
+      <div>
+        <span>YAY</span>
+        <span>INT</span>
+        <span>ER</span>
+        <span>NET</span>
+      </div>
+    </header>
+    <h1>Adopt A Dog And We'll Reveal A Deep Truth About You</h1>
+    <p>This is your pupper of truth.</p>
+    <p id="author">
+      By Amy Xu and Zach Maurer
+    </p>
+
+    <section class="question-name">
+      <h1 id='pup'>Pick a pup:</h1>
+    </section>
+
+
+    
+
+
+
+      <section class="choice-grid">
+          <div class='flex_container1' id='mask1'>
+
+        <div class='box1' id="dog1">
+          <div data-choice-id="blep" data-question-id="one">
+            <div class='box_img'><img src="images/blepdog.jpg" /></div>
+            <img class=" img_checkbox checkbox " id='dog1c' src="images/unchecked.png"  />
           </div>
-      </header>
-      <h1>Adopt A Dog And We'll Reveal A Deep Truth About You</h1>
-      <p>This is your pupper of truth.</p>
-      <p id="author">
-        By fullstackccu
-      </p>
+        </div>
 
-      <section class="question-name">
-        <h1>Pick a pup:</h1>
+        <div class='box1' id="dog2">
+
+          <div data-choice-id="happy" data-question-id="one">
+            <div class='box_img'><img src="./images/happydog.jpg" /></div>
+            <img class="checkbox img_checkbox" id='dog2c'  src="images/unchecked.png" />
+          </div>
+        </div>
+
+        <div class='box1'id="dog3">
+          <div data-choice-id="sleeping" data-question-id="one">
+            <div class='box_img'><img src="./images/sleepingdog.jpg" /></div>
+            <img class="checkbox img_checkbox"id='dog3c'  src="images/unchecked.png" />
+          </div>
+        </div>
+
+        <div class='box1'id="dog4">
+          <div data-choice-id="dopey" data-question-id="one">
+            <div class='box_img'><img src="./images/dopeydog.jpg" /></div>
+            <img class="checkbox img_checkbox" id='dog4c' src="images/unchecked.png" />
+          </div>
+        </div>
+
+        <div class='box1'id="dog5">
+
+          <div data-choice-id="burger" data-question-id="one">
+            <div class='box_img'><img src="./images/burgerdog.jpg" /></div>
+            <img class="checkbox img_checkbox" id='dog5c'  src="images/unchecked.png" />
+          </div>
+
+        </div>
+
+        <div class='box1'id="dog6">
+
+          <div data-choice-id="cart" data-question-id="one">
+            <div class='box_img'><img src="./images/cartdog.jpg" /></div>
+            <img class="checkbox img_checkbox" id='dog6c'  src="images/unchecked.png" />
+          </div>
+        </div>
+
+        <div class='box1'id="dog7">
+
+          <div data-choice-id="nerd" data-question-id="one">
+            <div class='box_img'><img src="./images/nerddog.jpg" /></div>
+            <img class="checkbox img_checkbox" id='dog7c'  src="images/unchecked.png" />
+          </div>
+        </div>
+
+        <div class='box1'id="dog8">
+          <div data-choice-id="shy" data-question-id="one">
+            <div class='box_img'><img src="./images/shydog.jpg" /></div>
+            <img class="checkbox img_checkbox"  id='dog8c' src="images/unchecked.png" />
+          </div>
+        </div>
+
+
+        <div class='box1'id="dog9">
+          <div data-choice-id="sleepy" data-question-id="one">
+            <div class='box_img'><img src="./images/sleepydog.jpg" /></div>
+            <img class="checkbox img_checkbox"  id='dog9c' src="images/unchecked.png" />
+          </div>
+
+        </div>
+      </div>
       </section>
 
+    
+
+    <section class="question-name">
+      <h1>Pick a dog bed:</h1>
+    </section>
+    
       <section class="choice-grid">
-        <div data-choice-id="blep" data-question-id="one">
-          <img src="images/blepdog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+          <div class='flex_container1'>
 
-        <div data-choice-id="happy" data-question-id="one">
-          <img src="./images/happydog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="sleeping" data-question-id="one">
-          <img src="./images/sleepingdog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="dopey" data-question-id="one">
-          <img src="./images/dopeydog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="burger" data-question-id="one">
-          <img src="./images/burgerdog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="cart" data-question-id="one">
-          <img src="./images/cartdog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="nerd" data-question-id="one">
-          <img src="./images/nerddog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="shy" data-question-id="one">
-          <img src="./images/shydog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="sleepy" data-question-id="one">
-          <img src="./images/sleepydog.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-      </section>
-
-      <section class="question-name">
-        <h1>Pick a dog bed:</h1>
-      </section>
-
-      <section class="choice-grid">
+        <div class='box1' id='bed1'>
         <div data-choice-id="blep" data-question-id="two">
-          <img src="images/blepbed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="images/blepbed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed1c src="images/unchecked.png" />
+        </div>
         </div>
 
+        
+        <div class='box1'id=bed2>
         <div data-choice-id="happy" data-question-id="two">
-          <img src="./images/happybed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/happybed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed2c  src="images/unchecked.png" />
+        </div>
         </div>
 
+        <div class='box1'id=bed3>
         <div data-choice-id="sleeping" data-question-id="two">
-          <img src="./images/sleepingbed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/sleepingbed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed3c src="images/unchecked.png" />
+        </div>
+        </div>
+        
+        <div class='box1'id=bed4>
+        <div data-choice-id="dopey" data-question-id="two">
+          <div class='box_img'><img src="./images/dopeybed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed4c src="images/unchecked.png" />
+        </div>
         </div>
 
-        <div data-choice-id="dopey" data-question-id="two">
-          <img src="./images/dopeybed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+        <div class='box1'id=bed5>
 
         <div data-choice-id="burger" data-question-id="two">
-          <img src="./images/burgerbed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/burgerbed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed5c src="images/unchecked.png" />
+        </div>
         </div>
 
+        <div class='box1'id=bed6>
         <div data-choice-id="cart" data-question-id="two">
-          <img src="./images/cartbed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/cartbed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed6c src="images/unchecked.png" />
         </div>
+        </div>
+
+        <div class='box1'id=bed7>
 
         <div data-choice-id="nerd" data-question-id="two">
-          <img src="./images/nerdbed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/nerdbed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed7c src="images/unchecked.png" />
+        </div>
         </div>
 
+
+        <div class='box1'id=bed8>
         <div data-choice-id="shy" data-question-id="two">
-          <img src="./images/shybed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/shybed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed8c src="images/unchecked.png" />
         </div>
+        </div>
+
+        <div class='box1'id=bed9>
 
         <div data-choice-id="sleepy" data-question-id="two">
-          <img src="./images/sleepybed.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
+          <div class='box_img'><img src="./images/sleepybed.jpg" /></div>
+          <img class="checkbox img_checkbox" id=bed9c src="images/unchecked.png" />
         </div>
+
+        </div>
+      </div>
       </section>
+  
 
-      <section class="question-name">
-        <h1>Pick a toy:</h1>
-      </section>
+    <section class="question-name">
+      <h1>Pick a toy:</h1>
+    </section>
 
-      <section class="choice-grid">
-        <div data-choice-id="blep" data-question-id="three">
-          <img src="images/bleptoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+    <section class="choice-grid">
 
-        <div data-choice-id="happy" data-question-id="three">
-          <img src="./images/happytoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+      <div class='flex_container1'>
 
-        <div data-choice-id="sleeping" data-question-id="three">
-          <img src="./images/sleepingtoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+    <div class='box1'id=toy1>
+      <div data-choice-id="blep" data-question-id="three">
+        <div class='box_img'><img src="images/bleptoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy1c src="images/unchecked.png" />
+      </div>
+    </div>
+      <div class='box1'id=toy2>
+      <div data-choice-id="happy" data-question-id="three">
+        <div class='box_img'><img src="./images/happytoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy2c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy3>
+      <div data-choice-id="sleeping" data-question-id="three">
+        <div class='box_img'><img src="./images/sleepingtoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy3c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy4>
+      <div data-choice-id="dopey" data-question-id="three">
+        <div class='box_img'><img src="./images/dopeytoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy4c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy5>
+      <div data-choice-id="burger" data-question-id="three">
+        <div class='box_img'><img src="./images/burgertoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy5c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy6>
+      <div data-choice-id="cart" data-question-id="three">
+        <div class='box_img'><img src="./images/carttoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy6c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy7>
+      <div data-choice-id="nerd" data-question-id="three">
+        <div class='box_img'><img src="./images/nerdtoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy7c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy8>
+      <div data-choice-id="shy" data-question-id="three">
+        <div class='box_img'><img src="./images/shytoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy8c src="images/unchecked.png" />
+      </div>
+      </div>
+        <div class='box1'id=toy9>
+      <div data-choice-id="sleepy" data-question-id="three">
+        <div class='box_img'><img src="./images/sleepytoy.jpg" /></div>
+        <img class="checkbox img_checkbox" id=toy9c src="images/unchecked.png" />
+      </div>
+      </div>
+      </div>
+    </section>
+    <div id='appear'>
+    <div>
+    <header ><h1 id='title'></h1></header>
+    <header id='contents'>1234</header>
+    </div>
+    <div ><div id='restartbutton'><p class='ptext' >Restart quiz</p></div></div>
+    </div>  
 
-        <div data-choice-id="dopey" data-question-id="three">
-          <img src="./images/dopeytoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
+  </article>
+</body>
 
-        <div data-choice-id="burger" data-question-id="three">
-          <img src="./images/burgertoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="cart" data-question-id="three">
-          <img src="./images/carttoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="nerd" data-question-id="three">
-          <img src="./images/nerdtoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="shy" data-question-id="three">
-          <img src="./images/shytoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-
-        <div data-choice-id="sleepy" data-question-id="three">
-          <img src="./images/sleepytoy.jpg"/>
-          <img class="checkbox" src="images/unchecked.png"/>
-        </div>
-      </section>
-
-    </article>
-  </body>
 </html>
